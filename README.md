@@ -74,27 +74,3 @@ The application uses dynamic client-side routing managed by `react-router-dom`. 
    Open your browser to the local URL (usually `http://localhost:5173`).
 
 ---
-
-## 📦 Pushing to your GitHub Repository
-
-To push this project to your new repository at `https://github.com/codesrishti/L-Artisan`, run the following commands sequentially in your terminal:
-
-```bash
-# 1. Initialize Git repository (if not already done)
-git init
-
-# 2. Add files to staging area (your .gitignore already excludes node_modules and builds)
-git add .
-
-# 3. Create your initial commit
-git commit -m "feat: complete premium responsive react website for L'Artisan"
-
-# 4. Set the default branch to 'main'
-git branch -M main
-
-# 5. Connect your local directory to your remote GitHub repository
-git remote add origin https://github.com/codesrishti/L-Artisan.git
-
-# 6. Push code to the remote repository
-git push -u origin main
-```
